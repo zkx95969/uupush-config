@@ -1,0 +1,11 @@
+server:
+  port: 80
+zuul:
+  routes:
+    uupush-content: /content/**
+    uupush-item: /item/**
+    uupush-order: /order/**
+    uupush-sso: /sso/**
+    uupush-solr: /solr/**
+    uupush-member: /member/**
+    uupush-manager: /manager/**
